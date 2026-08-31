@@ -12,22 +12,25 @@ The workflow connects a MySQL database to Python scripts, automates cleaning and
 ---
 
 ## 📂 Project Structure
-Project Directory/
-│
-├── 1data/                # Raw dataset (CSV)
-├── 2sql/                 # SQL scripts
-│   ├── 01_create_tables.sql
-│   ├── 02_insert_data.sql
-│   ├── 03_data_cleaning.sql
-│   └── 04_analysis.sql
-├── 3python_work/         # Python scripts
-│   ├── run_cleaning.py
-│   ├── run_analysis.py
-│   └── utils.py
-├── 4dashboard_BI/        # Power BI dashboard files (.pbix)
-├── 5result/              # Screenshots / outputs
-├── 6report/              # Documentation / reports
-└── README.md
+#### Project Directory/
+##### 1data/              
+    **Raw dataset (CSV)**
+##### 2sql/                 
+-    01_create_tables.sql
+-    02_insert_data.sql
+-    03_data_cleaning.sql
+-    04_analysis.sql
+##### 3python_work/         
+-   run_cleaning.py
+-   run_analysis.py
+-   utils.py
+#####   4dashboard_BI/        
+     **Power BI dashboard files (.pbix)**
+#####   5result/              
+     **Screenshots / outputs**
+#####   6report/              
+        **Documentation / reports**
+#####   README.md
 
 ## 📊 Analysis Queries
 
