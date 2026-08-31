@@ -92,4 +92,3 @@ Add advanced metrics (Customer Lifetime Value, churn prediction)
 
 #  👨‍💻 Author
 **Kaushang Tripathi**  
-Hackathon participant | SQL & Python learner | BI enthusiast
