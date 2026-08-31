@@ -1,0 +1,4 @@
+payment_method,total_transactions,total_amount
+Cash,24,212400.0
+Card,27,541700.0
+Online,24,213200.0
