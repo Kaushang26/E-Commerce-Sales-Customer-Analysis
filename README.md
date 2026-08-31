@@ -12,7 +12,7 @@ The workflow connects a MySQL database to Python scripts, automates cleaning and
 ---
 
 ## 📂 Project Structure
-<Main project Directory>/
+Project Directory/
 │
 ├── 1data/                # Raw dataset (CSV)
 ├── 2sql/                 # SQL scripts
@@ -29,28 +29,29 @@ The workflow connects a MySQL database to Python scripts, automates cleaning and
 ├── 6report/              # Documentation / reports
 └── README.md
 
-📊 Analysis Queries
-1-->The analysis covers:
+## 📊 Analysis Queries
 
-1-->Top Selling Products
 
-2-->Revenue by Customer
+1-->**Top Selling Products**
 
-3-->Monthly Revenue Trends
+2-->**Revenue by Customer**
 
-4-->Repeat Buyers
+3-->**Monthly Revenue Trends**
 
-5-->Inactive Customers
+4-->**Repeat Buyers**
 
-6-->Average Order Value (AOV)
+5-->**Inactive Customers**
 
-7-->Declining Sales by Product
+6-->**Average Order Value (AOV)**
 
-8-->Payment Method Distribution
+7-->**Declining Sales by Product**
+
+8-->**Payment Method Distribution**
 
 Each query result is exported as a CSV into results/csv/.
 
-📈 Dashboard
+## 📈 Dashboard
+
 Import CSVs into Power BI.
 
 Build visuals:
@@ -67,20 +68,20 @@ Pie chart → Payment Distribution
 
 Save the dashboard in 4dashboard_BI/.
 
-📷 Screenshots
+##  📷 Screenshots
 Include screenshots of:
 
-MySQL login and table view
+**MySQL login and table view**
 
-Cleaning script execution
+**Cleaning script execution**
 
-Analysis script execution
+**Analysis script execution**
 
 CSV outputs in results/csv/
 
-Power BI dashboard visuals
 
-🚀 Future Improvements
+
+##  🚀 Future Improvements
 Automate pipeline with pipeline.py
 
 Schedule daily refresh using Task Scheduler
@@ -89,6 +90,6 @@ Connect Power BI directly to MySQL for live dashboards
 
 Add advanced metrics (Customer Lifetime Value, churn prediction)
 
-👨‍💻 Author
-Kaushang Tripathi  
+#  👨‍💻 Author
+**Kaushang Tripathi**  
 Hackathon participant | SQL & Python learner | BI enthusiast
